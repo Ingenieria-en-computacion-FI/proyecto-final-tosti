@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <stdlib.h>
 #include "memory_manager.h"
 
@@ -30,3 +31,18 @@ void mm_free(MemoryManager* mm, int start_address) {
         current = current->next;
     }
 }
+=======
+#include "memory_manager.h"
+
+/*
+Implementar unión de bloques libres.
+
+Ejemplo:
+
+[P1][Libre][Libre][P2]
+
+↓
+
+[P1][Libre Grande][P2]
+*/
+>>>>>>> 6ca838b20c0ca67b15a8b7b98d01f6a6281f7c5c

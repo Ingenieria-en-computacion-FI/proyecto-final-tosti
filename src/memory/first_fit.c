@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <stdlib.h>
 #include "memory_manager.h"
 
@@ -55,3 +56,57 @@ void mm_destroy(MemoryManager* mm) {
     }
     free(mm);
 }
+=======
+#include "memory_manager.h"
+
+MemoryManager* mm_create(
+    int total_memory
+) {
+
+    /*
+    IMPLEMENTAR
+    */
+
+    return 0;
+}
+
+int mm_allocate_first_fit(
+    MemoryManager* mm,
+    int size
+) {
+
+    /*
+    IMPLEMENTAR
+    */
+
+    return -1;
+}
+
+void mm_free(
+    MemoryManager* mm,
+    int pid
+) {
+
+    /*
+    IMPLEMENTAR
+    */
+}
+
+void mm_coalesce(
+    MemoryManager* mm
+) {
+
+    /*
+    IMPLEMENTAR
+    */
+}
+
+void mm_destroy(
+    MemoryManager* mm
+) {
+
+    /*
+    IMPLEMENTAR
+    */
+}
+>>>>>>> 6ca838b20c0ca67b15a8b7b98d01f6a6281f7c5c
